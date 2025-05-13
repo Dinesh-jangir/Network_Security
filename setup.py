@@ -30,11 +30,10 @@ def get_requirements()->List[str]:
 
 
 setup (
-    name = 'NETWORKSECURITY',
-    version = '0.0.1',
-    author = 'Dinesh Jangir',
-    author_email = 'dineshjangir887766@gmail.com',
-    packeges = find_packages(),
+    name = "NETWORKSECURITY",
+    version = "0.0.1",
+    author = "Dinesh jangir",
+    author_email = "dineshjangir887766@gmail.com",
+    packages = find_packages(),
     install_requires = get_requirements()
-    
 )
