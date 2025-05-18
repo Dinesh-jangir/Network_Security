@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MONGO_DB_URL = "mongodb+srv://dineshjangir887766:1234qwe@cluster0.ep8kd3a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URL = os.getenv("MONGO_DB_URLS")
 
 print(MONGO_DB_URL)
 

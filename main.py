@@ -1,4 +1,6 @@
 import sys
+import pandas as pd 
+
 from NetworkSecurity.component.data_ingestion import DataIngestion
 from NetworkSecurity.exception.exception import NetworkSecurityException
 from NetworkSecurity.logging.logger import logging
