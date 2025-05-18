@@ -14,7 +14,7 @@ load_dotenv()
 
 MONGO_DB_URL = os.getenv("MONGO_DB_URLS")
 
-print(MONGO_DB_URL)
+
 
 class DataIngestion:
     def __init__(self,data_insetion_config: DataIngestionConfig):
